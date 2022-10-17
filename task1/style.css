@@ -3,10 +3,10 @@ body{
     height: 100vh;
     margin: 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 }
-.main_div{
+main{
 
     border-radius: 10px;
     height: 382px;
@@ -18,26 +18,26 @@ body{
 
 .search_line{
     background-color: #FFC93D;
-    height: 30px;
+    height: 40px;
     width: 80%;
     border-radius: 10px;
-    padding-left: 7px;
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 
 }
 .search{
     background-color: white;
     border-radius: 10px;
     width: 85%;
-    height: 30px;
+    height: 40px;
     display: flex;
     align-items: center;
     padding-left: 5px;
 }
 .search_button{
     width: 15%;
-    height: 30px;
+    height: 36px;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -95,7 +95,7 @@ input:focus{
     text-align: center;
     margin-top: 0px;
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 14px;
     text-align: start;
 }
 
@@ -135,7 +135,7 @@ input:focus{
 a{
     text-decoration: none;
     color: #216BCE;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: sans-serif;
 }
 
 .inf{
@@ -147,4 +147,14 @@ a{
     width: 13px;
     height: 13px;
     margin-right:5px ;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer_list{
+    display: flex;
+    justify-content: flex-start;
 }

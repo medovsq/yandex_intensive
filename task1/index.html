@@ -8,18 +8,18 @@
     <title>Task 1</title>
 </head>
 <body>
-    <div class="main_div">
+    <main>
         <section class="head">
             <div class="logo1">
-                <img src="img/logotip.png" alt="логотип сайта" class="logo">
+                <img src="img/logotip.svg" alt="логотип сайта" class="logo">
             </div>
             <div class="search_line">
                 <form action="" class="flex_content" method="get">
                     <div class="search">
-                        <input class="input" type="text" placeholder="введите текст">
+                        <input class="input" type="text" placeholder="Найдётся всё">
                     </div>
                     <div class="search_button">
-                        <button class="button" name="найти" type="reset">найти</button>
+                        <button class="button" name="найти" type="reset"><b>Найти</b></button>
                     </div>
                 </form>
             </div>
@@ -27,26 +27,34 @@
         
         <section class="error">
             <h1 class="title-font">Ошибка 404. Нет такой страницы</h1>
-            <p class="font">Если вы считаете, что страници нет по нашей вине, <a href="mailto:zelenkinartjom@yandex.ru">напишите нам</a>.</p>
+            <p class="font">Если вы считаете, что страницы нет по нашей вине, <a href="mailto:zelenkinartjom@yandex.ru">напишите нам</a>.</p>
         </section>
 
         <section class="add">
             <div class="left_column">
-                <p class="font"><img class="icon" src="img/market_new2022.svg" alt="яндекс маркет"><a href="">Маркет</a> - товары со скидкой</p>
-                <p class="font"><img class="icon" src="img/music_new.svg" alt="яндекс музыка"><a href="">Музыка</a> - музыка в хорошем качестве</p>
-                <p class="font"><img src="img/plus1.svg" alt="плюс" class="icon"><a href="">Плюс</a> - теперь для всей семьи</p>
-                <p class="font"><img src="img/kinopoisk_2021_v2.svg" alt="кинопоиск" class="icon"><a href="">Кинопоиск</a> - смотри фильмы без ограничений</p>
+                <ul>
+                    <li><p class="font"><img class="icon" src="img/market_new2022.svg" alt="яндекс маркет"><a href="https://market.yandex.ru/?clid=568&utm_source=face_title&utm_medium=cpc&utm_campaign=ft_desktop_smartphone_huawei_all">Маркет</a> - товары со скидкой</p></li>
+                    <li><p class="font"><img class="icon" src="img/music_new.svg" alt="яндекс музыка"><a href="https://music.yandex.ru/home?utm_source=yandex_portal&utm_medium=music_selfpromo_performance&utm_term=yandex_service_list&utm_campaign=title">Музыка</a> - подкасты где угодно</p></li>
+                    <li><p class="font"><img src="img/plus1.svg" alt="плюс" class="icon"><a href="https://plus.yandex.ru/?utm_source=yandex_portal&utm_medium=plus_selfpromo_performance&utm_term=yandex_service_list&utm_campaign=title">Плюс</a> - теперь и для семьи</p></li>
+                    <li><p class="font"><img src="img/kinopoisk_2021_v2.svg" alt="кинопоиск" class="icon"><a href="https://hd.kinopoisk.ru/">Кинопоиск</a> - «Нулевой пациент»</p></li>    
+                </ul>
             </div>
             <dev class="right_column">
-                <p class="font"><img src="img/edadeal_new.svg" alt="едадил" class="icon"><a href="">Едадил</a> - скидки в супермаркетах</p>
+                <ul>
+                    <li><p class="font"><img src="img/edadeal_new.svg" alt="едадил" class="icon"><a href="https://edadeal.ru/?utm_campaign=main&utm_content=desktop&utm_medium=visited&utm_source=portal&utm_term=sale2">Едадил</a> - скидки в супермаркетах</p></li>
+                    <li><p class="font"><img src="img/praktikum0.svg" alt="практикум" class="icon"><a href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main">Практикум</a> - стать аналитиком</p></li>
+                    <li><p class="font"><img src="img/toloka1.svg" alt="толока" class="icon"><a href="https://toloka.yandex.ru/?utm_source=yamain&utm_medium=popular&utm_campaign=toloka">Толока</a> - удалённый заработок</p></li>
+                </ul>
             </dev>
         </section>
-    </div>
+    </main>
 
     <footer>
-        <a class="font inf" href="">о компании</a>
-        <a class="font inf" href="">поддержка</a>
-        <a class="font inf" href="">©лосяндекс</a>
+        <ul class="footer_list">
+            <li><a class="font inf" href="https://yandex.ru/company/">Компания</a></li>
+            <li><a class="font inf" href="https://yandex.com/company/">About</a></li>
+            <li><a class="font inf" href="https://ya.ru/">©Яндекс</a></li>
+        </ul>
     </footer>
 </body>
 </html>
